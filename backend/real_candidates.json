@@ -1,0 +1,173 @@
+{
+    "CAND-001": {
+        "id": "CAND-001",
+        "name": "Aarav Sharma",
+        "role": "Senior ML Engineer",
+        "overall_match": 84.0,
+        "evidence_score": 82.5,
+        "decision_confidence": 91.2,
+        "fairness": {
+            "status": "Stable",
+            "proxy_tests_passed": 20,
+            "total_proxy_tests": 20,
+            "human_review_required": false,
+            "reason": null
+        },
+        "skills": [
+            {
+                "skill_name": "Python",
+                "proficiency": 88.0,
+                "is_critical": true,
+                "evidence": [
+                    {
+                        "id": "ev_aarav_1",
+                        "description": "5 years continuous enterprise backend development",
+                        "type": "experience",
+                        "confidence": 0.95,
+                        "recency_months": 2
+                    }
+                ]
+            },
+            {
+                "skill_name": "AWS",
+                "proficiency": 85.0,
+                "is_critical": false,
+                "evidence": [
+                    {
+                        "id": "ev_aarav_2",
+                        "description": "AWS Certified Solutions Architect",
+                        "type": "certification",
+                        "confidence": 0.99,
+                        "recency_months": 12
+                    }
+                ]
+            }
+        ],
+        "experience_years": 5,
+        "career_gap_years": 0,
+        "university_tier": "Tier-1 (IIT Bombay)",
+        "location": "Mumbai, India",
+        "writing_style": "Corporate Standard",
+        "proxy_risks": [
+            {
+                "attribute": "University",
+                "risk_level": "Medium",
+                "reason": "Traditional ATS flags this as 93% match based on prestige. EquiRank discounted the brand-name bump via FairVIC projection."
+            }
+        ]
+    },
+    "CAND-002": {
+        "id": "CAND-002",
+        "name": "Ananya Patel",
+        "role": "Senior ML Engineer",
+        "overall_match": 86.5,
+        "evidence_score": 92.0,
+        "decision_confidence": 94.5,
+        "fairness": {
+            "status": "Stable",
+            "proxy_tests_passed": 20,
+            "total_proxy_tests": 20,
+            "human_review_required": false,
+            "reason": null
+        },
+        "skills": [
+            {
+                "skill_name": "PyTorch",
+                "proficiency": 94.0,
+                "is_critical": true,
+                "evidence": [
+                    {
+                        "id": "ev_ananya_1",
+                        "description": "Production deployment of custom PyTorch transformer models",
+                        "type": "project",
+                        "confidence": 0.96,
+                        "recency_months": 1
+                    }
+                ]
+            },
+            {
+                "skill_name": "Docker & Kafka",
+                "proficiency": 89.5,
+                "is_critical": true,
+                "evidence": [
+                    {
+                        "id": "ev_ananya_2",
+                        "description": "Built event-driven inference microservices using Kafka",
+                        "type": "experience",
+                        "confidence": 0.92,
+                        "recency_months": 6
+                    }
+                ]
+            }
+        ],
+        "experience_years": 4,
+        "career_gap_years": 3,
+        "university_tier": "Tier-2 State College",
+        "location": "Ahmedabad, India",
+        "writing_style": "Technical/Direct",
+        "proxy_risks": [
+            {
+                "attribute": "Career Gap",
+                "risk_level": "Low",
+                "reason": "Traditional ATS auto-rejects for 2.5-year gap. EquiRank verifies high project density and technical proficiency."
+            }
+        ]
+    },
+    "CAND-003": {
+        "id": "CAND-003",
+        "name": "Rohan Kumar",
+        "role": "Senior ML Engineer",
+        "overall_match": 89.0,
+        "evidence_score": 88.5,
+        "decision_confidence": 76.4,
+        "fairness": {
+            "status": "Review",
+            "proxy_tests_passed": 8,
+            "total_proxy_tests": 20,
+            "human_review_required": true,
+            "reason": "Uncertainty Gate Triggered (Article 14 EU AI Act)"
+        },
+        "skills": [
+            {
+                "skill_name": "Machine Learning",
+                "proficiency": 91.0,
+                "is_critical": true,
+                "evidence": [
+                    {
+                        "id": "ev_rohan_1",
+                        "description": "Freelance ML optimization projects for local businesses",
+                        "type": "project",
+                        "confidence": 0.82,
+                        "recency_months": 4
+                    }
+                ]
+            },
+            {
+                "skill_name": "TensorFlow",
+                "proficiency": 87.0,
+                "is_critical": false,
+                "evidence": [
+                    {
+                        "id": "ev_rohan_2",
+                        "description": "Open source contributions to TF vision libraries",
+                        "type": "achievement",
+                        "confidence": 0.88,
+                        "recency_months": 10
+                    }
+                ]
+            }
+        ],
+        "experience_years": 3,
+        "career_gap_years": 0,
+        "university_tier": "Rural District College",
+        "location": "Bihar, India",
+        "writing_style": "Unconventional",
+        "proxy_risks": [
+            {
+                "attribute": "Location & Pedigree",
+                "risk_level": "High",
+                "reason": "Counterfactual stress-testing revealed score drops by 14% when location and university variables are perturbed. Routed to human oversight."
+            }
+        ]
+    }
+}
